@@ -12,9 +12,9 @@ Invoke-RestMethod -Uri $uriAccount -Method get -Headers $AzureDevOpsAuthenicatio
 
 #Create a work item
 
-$WorkItemType = "task"
-$WorkItemTitle = "Checking task creation"
-$WorkItemDescription = "check Description"
+$WorkItemType = "epic"
+$WorkItemTitle = "Checking epic creation"
+$WorkItemDescription = "check Description in AzDo"
 $ProjectName = "taskcreation";
 
 
